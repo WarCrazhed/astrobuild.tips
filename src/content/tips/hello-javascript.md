@@ -1,8 +1,9 @@
 ---
 title: "Hello JavaScript"
-pubDate: 2024-05-07
-image: 
+pubDate: 2024-05-09
+image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 tags: ["astro", "javascript"]
+layout: "../../layouts/Posts.astro"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet ornare venenatis. Nunc lectus nibh, auctor sit amet tincidunt sit amet, facilisis eget sapien. Curabitur eu velit odio. Sed rhoncus sapien eget augue condimentum semper eu eu nibh. Nunc et felis sapien. Phasellus nec ullamcorper quam.
