@@ -1,4 +1,6 @@
 ---
+import { formatDate } from '../helpers/formatDate';
+
 interface Props {
 	title: string;
 	time: string;
@@ -7,6 +9,7 @@ interface Props {
 }
 
 const { title, time, tags, slug } = Astro.props;
+const date = formatDate(time)
 ---
 
 <article
@@ -14,7 +17,7 @@ const { title, time, tags, slug } = Astro.props;
 >
 	<div class="rounded-[10px] bg-white p-4 !pt-20 sm:p-6">
 		<time datetime="2022-10-10" class="block text-xs text-gray-500">
-			{time}
+			{date}
 		</time>
 
 		<a href={`/posts/${slug}`}>
